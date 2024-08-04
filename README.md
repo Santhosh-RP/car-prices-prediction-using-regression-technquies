@@ -1,5 +1,5 @@
 # car-prices-prediction-using-regression-technquies
-![Uploading image.png…]()
+![20231204054911_Honda 9](https://github.com/user-attachments/assets/499e554a-5379-4be4-90b9-2880cb555c3c)
 
 Dataset Description
 This dataset explores several features related to cars:
