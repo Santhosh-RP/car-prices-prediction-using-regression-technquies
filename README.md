@@ -4,18 +4,19 @@
 Dataset Description
 This dataset explores several features related to cars:
 
-brand: The make or manufacturer of the car (e.g., Toyota, Ford, BMW).
-model: The specific model of the car (e.g., Corolla, Mustang, 3 Series).
-model_year: The year the car model was manufactured or released.
-milage: The total distance the car has been driven, typically measured in miles or kilometers.
-fuel_type: The type of fuel the car uses (e.g., petrol, diesel, electric, hybrid).
-engine: Information about the car's engine, including details such as displacement (e.g., 2.0L, 3.5L) or engine configuration.
-transmission: The type of transmission the car has (e.g., manual, automatic, CVT).
-ext_col: The exterior color of the car (e.g., red, black, silver).
-int_col: The interior color of the car (e.g., beige, black, gray).
-accident: Indicates whether the car has been in an accident (likely a binary feature, e.g., yes/no).
-clean_title: Indicates whether the car has a clean title, meaning it hasn't been severely damaged or written off (likely a binary feature, e.g., yes/no).
-price: The selling price of the car, which is the target variable for regression analysis.
+1. brand: The make or manufacturer of the car (e.g., Toyota, Ford, BMW).
+2. model: The specific model of the car (e.g., Corolla, Mustang, 3 Series).
+3. model_year: The year the car model was manufactured or released.
+4. milage: The total distance the car has been driven, typically measured in miles or kilometers.
+5. fuel_type: The type of fuel the car uses (e.g., petrol, diesel, electric, hybrid).
+6. engine: Information about the car's engine, including details such as displacement (e.g., 2.0L, 3.5L) or engine configuration.
+7. transmission: The type of transmission the car has (e.g., manual, automatic, CVT).
+8. ext_col: The exterior color of the car (e.g., red, black, silver).
+9. int_col: The interior color of the car (e.g., beige, black, gray).
+10. accident: Indicates whether the car has been in an accident (likely a binary feature, e.g., yes/no).
+11. clean_title: Indicates whether the car has a clean title, meaning it hasn't been severely damaged or written off (likely a binary feature, e.g., yes/no).
+12. price: The selling price of the car, which is the target variable for regression analysis.
+
 In this project, I performed the following steps:
 
 Data preprocessing
@@ -23,6 +24,7 @@ Handling outliers
 Feature engineering
 Feature selection
 Model selection
+
 This dataset was used for a regression problem. I applied various regression algorithms and obtained the following results:
 
 Linear Regression:
